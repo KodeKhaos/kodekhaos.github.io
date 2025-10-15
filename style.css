@@ -7,9 +7,35 @@ body {
 }
 
 header {
-	text-align: center;
-	padding: 50px;
 	background: #222;
+	padding: 40px;
+	text-align: center;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap; /* keeps it nice on mobile */
+}
+
+.logo {
+	width: 100px; /* adjust size */
+	height: 100px;
+	border-radius: 50%; /* makes it circular, optional */
+	object-fit: cover;
+}
+
+.header-text h1 {
+	margin: 0;
+	font-size: 3rem;
+	color: #f39c12;
+}
+
+.header-text p {
+	margin: 5px 0 0;
+	color: #ccc;
 }
 
 h1 {
